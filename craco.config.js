@@ -142,7 +142,7 @@ let webpackConfig = {
                   preset[0].includes("preset-react")
                 )
             ),
-            require.resolve("@babel/preset-react"),
+            [require.resolve("@babel/preset-react"), { runtime: "automatic" }],
           ],
         };
       }
