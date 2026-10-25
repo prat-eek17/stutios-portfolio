@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #2d2638;
+}
+
+.font-pixel {
+    font-family: 'Press Start 2P', monospace;
+}
+
+.font-vt {
+    font-family: 'VT323', monospace;
+}
+
+.pixelated {
+    image-rendering: pixelated;
+}
+
+::selection {
+    background: #ff6b8b;
+    color: #fff;
+}

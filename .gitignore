@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Python backend
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+
+# Secrets
+.env
+.env.local
+.env.production
+
+# Dev tools
+.emergent/
+
+# macOS
+__MACOSX/
+.DS_Store
+
+# Editor
+.vscode/
+*.log
